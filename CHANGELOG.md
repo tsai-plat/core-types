@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.0.7
+
+### Patch Changes
+
+- feat: add ui action type
+
 ## 0.0.6
 
 ### Patch Changes

@@ -3,6 +3,7 @@ export type TreeNodeOptionType = {
   key: string | number;
   label: string;
   pid: string | number | null;
+  icon?: string;
   children?: Array<TreeNodeOptionType>;
   disabled?: boolean;
   isLeaf?: boolean;
