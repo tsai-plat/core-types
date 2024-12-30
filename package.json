@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
-  "types": "typings",
+  "types": "types/index.d.ts",
   "scripts": {
     "postinstall": "npx only-allow pnpm",
     "prebuild": "rimraf dist types",
