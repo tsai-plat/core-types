@@ -27,7 +27,6 @@ export default {
         "revert",
         "style",
         "test",
-        "sample",
       ],
     ],
   },

@@ -13,6 +13,8 @@
     "lint-staged": "lint-staged",
     "lint": "eslint \"src/**/*.ts\" --fix",
     "format": "prettier **/**/*.ts --ignore-path ./.prettierignore --write",
+    "beta": "pnpm build && pnpm release:beta",
+    "release:beta": "changeset publish --tag beta",
     "release": "pnpm build && pnpm release:only",
     "release:only": "changeset publish --registry=https://registry.npmjs.com/",
     "prepare": "husky"
