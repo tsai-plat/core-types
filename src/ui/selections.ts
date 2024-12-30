@@ -6,6 +6,7 @@ export type SelectorOptionsType<T = string | number> = {
   icon?: string;
   extra?: {
     id: number;
+    uid?: number;
     orgno?: string;
     [k: string]: any;
   };

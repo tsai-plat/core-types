@@ -41,6 +41,6 @@ export type CommonEntityType = {
   createdAt?: Date;
   updatedBy?: number;
   updatedAt?: Date;
-  sortno?: string;
+  sortno?: number;
   status?: StatusEnum;
 };
