@@ -1,6 +1,6 @@
 {
   "name": "@tsailab/core-types",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
@@ -17,7 +17,7 @@
     "release:beta": "changeset publish --tag beta",
     "release": "pnpm build && pnpm release:only",
     "release:only": "changeset publish --registry=https://registry.npmjs.com/",
-    "vp": "npx changeset",
+    "vp": "npx changeset version",
     "push:changelog": "node build/scripts/push-changelog.mjs",
     "prepare": "husky"
   },
