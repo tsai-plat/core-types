@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.0.5
+
+### Patch Changes
+
+- Add move enum & core constants
+
 ## 0.0.4
 
 ### Patch Changes
