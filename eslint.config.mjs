@@ -20,6 +20,7 @@ export default tseslint.config({
     "tsconfig.json",
     "package.json",
     ".*",
+    "commitlint.config.mjs",
   ],
   languageOptions: {
     ecmaVersion: 2020,
