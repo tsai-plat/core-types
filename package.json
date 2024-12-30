@@ -15,7 +15,7 @@
     "format": "prettier **/**/*.ts --ignore-path ./.prettierignore --write",
     "beta": "pnpm build && pnpm release:beta",
     "release:beta": "changeset publish --tag beta",
-    "release": "pnpm build && pnpm release:only",
+    "release": "pnpm build && pnpm release:only && pnpm push:changelog",
     "release:only": "changeset publish --registry=https://registry.npmjs.com/",
     "vp": "npx changeset version",
     "push:changelog": "node build/scripts/push-changelog.mjs",
