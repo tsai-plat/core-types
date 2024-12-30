@@ -11,6 +11,7 @@ export type TreeNodeOptionType = {
 
 export type RegionTreeNode = {
   id: number;
+  pid: number;
   label: string;
   value: string;
   code: string;
@@ -23,8 +24,7 @@ export type RegionTreeNode = {
 };
 
 export type RegionTreeExNode = RegionTreeNode & {
-  pid: number;
-  oid: number;
-  opid: number;
+  oid?: number;
+  uid?: number;
   [k: string]: any;
 };
