@@ -18,6 +18,7 @@
     "release": "pnpm build && pnpm release:only",
     "release:only": "changeset publish --registry=https://registry.npmjs.com/",
     "vp": "npx changeset",
+    "push:changelog": "node build/scripts/push-changelog.mjs",
     "prepare": "husky"
   },
   "files": [

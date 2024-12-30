@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-node ./build/scripts/push-changelog.mjs
+node "./build/scripts/push-changelog.mjs"
