@@ -16,10 +16,8 @@
 ## Installation
 
 ```
-$ npm install -g @tsailab/ioredis-mq
+$ npm install -g @tsailab/core-types
 ```
-
-## Usage
 
 ---
 
