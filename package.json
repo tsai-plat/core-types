@@ -17,7 +17,7 @@
     "release:beta": "changeset publish --tag beta",
     "release": "pnpm build && pnpm release:only",
     "release:only": "changeset publish --registry=https://registry.npmjs.com/",
-    "upversion": "npx changeset version",
+    "vp": "npx changeset version",
     "prepare": "husky"
   },
   "files": [
