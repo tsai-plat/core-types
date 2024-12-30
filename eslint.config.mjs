@@ -12,6 +12,7 @@ export default tseslint.config({
   ],
   files: ["**/*.{ts,js,json}"],
   ignores: [
+    ".changeset/*",
     ".vscode/*",
     ".husky/*",
     "dist",
