@@ -6,4 +6,5 @@ export * from './nextno.biztype.enum';
 export * from './page.enum';
 export * from './platform.enum';
 export * from './rest.httpstatus.enum';
+export * from './sortno.move.enum';
 export * from './status.enum';
