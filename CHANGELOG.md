@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.0.6
+
+### Patch Changes
+
+- feat: change region node add pid
+
 ## 0.0.5
 
 ### Patch Changes
