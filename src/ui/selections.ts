@@ -7,7 +7,7 @@ export type SelectorOptionsType<T = string | number> = {
   extra?: {
     id: number;
     uid?: number;
-    orgno?: string;
+    orgid?: number;
     [k: string]: any;
   };
 };

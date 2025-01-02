@@ -20,7 +20,7 @@ export type JwtAccessPayload = IAccessBase & {
   username: string; //用户名
   avatar?: string; // 头像
   id?: number; // userid
-  orgno?: string;
+  orgid?: number;
   acctype?: AccountType;
   scopes?: Array<any>; // 扩展权限
   [k: string]: any;
@@ -44,6 +44,6 @@ export interface IUserSession {
   phone: string;
   status: UserStatusEnum;
   acctype: AccountType;
-  orgno?: string;
+  orgid?: number;
   [k: string]: any;
 }

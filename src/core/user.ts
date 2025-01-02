@@ -22,7 +22,7 @@ export interface IUser extends IUserBase {
   remark?: string;
   openid?: string;
   unionid?: string;
-  orgno?: string;
+  orgid?: number;
   isSuper?: boolean;
   [k: string]: any;
 }
