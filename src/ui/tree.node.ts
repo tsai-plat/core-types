@@ -1,5 +1,5 @@
 export type TreeNodeOptionType = {
-  id: number;
+  id?: number;
   key: string | number;
   label: string;
   pid: string | number | null;
@@ -7,7 +7,9 @@ export type TreeNodeOptionType = {
   children?: Array<TreeNodeOptionType>;
   disabled?: boolean;
   isLeaf?: boolean;
+  level?: number;
   extra?: Record<string, any>;
+  [k: string]: any;
 };
 
 export type RegionTreeNode = {
