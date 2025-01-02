@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.0.9
+
+### Patch Changes
+
+- upgrade all types of contains orgno to orgid
+
 ## 0.0.8
 
 ### Patch Changes
