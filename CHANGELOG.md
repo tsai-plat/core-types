@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.0.8
+
+### Patch Changes
+
+- ui tree types upgrade
+
 ## 0.0.7
 
 ### Patch Changes
