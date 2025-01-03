@@ -5,5 +5,7 @@ export type CtrlReadable = {
   show: boolean;
   opertype: UIActionType;
   inprogressing?: boolean;
+  title?: string;
+  error?: string;
   [k: string]: any;
 };
