@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.0.10
+
+### Patch Changes
+
+- update ui types
+
 ## 0.0.9
 
 ### Patch Changes
