@@ -26,3 +26,26 @@ export interface IUser extends IUserBase {
   isSuper?: boolean;
   [k: string]: any;
 }
+
+/**
+ * quick registered account
+ * @requires
+ *  account: email or phone
+ * @optional
+ *  platform,status
+ */
+export interface QuickRegisteredAccount {
+  account: string;
+  platform?: PlatformEnum;
+  status?: UserStatusEnum;
+  [k: string]: any;
+}
+
+export interface PasswordRegisteredAccount {
+  username: string;
+  phone?: string;
+  email?: string;
+  password: string;
+  platform?: PlatformEnum;
+  status?: UserStatusEnum;
+}
