@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.0.12
+
+### Patch Changes
+
+- custom signin types
+
 ## 0.0.11
 
 ### Patch Changes
