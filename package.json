@@ -1,6 +1,6 @@
 {
   "name": "@tsailab/core-types",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
