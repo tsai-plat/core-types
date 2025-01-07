@@ -2,7 +2,7 @@
  * from http request or middleware options
  */
 export type MQRequestOption = {
-  ip: string;
+  ip?: string;
   cliid?: string;
   uid?: number;
   [k: string]: any;
@@ -27,4 +27,5 @@ export type MQLogPayload = {
   operator?: string;
   extra?: any;
   locked?: boolean;
+  typ?: number;
 };

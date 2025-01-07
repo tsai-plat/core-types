@@ -1,4 +1,5 @@
-export enum NextNoBiztype {
-  USER = 1,
-  ORDER = 2,
+export enum NextNoType {
+  USER = 'xuser',
+  ORDER = 'order',
+  BILL = 'xbill',
 }
