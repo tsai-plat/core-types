@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.1.2
+
+### Patch Changes
+
+- Client types
+
 ## 0.1.1
 
 ### Patch Changes
