@@ -1,4 +1,5 @@
 export * from './account.type.enum';
+export * from './client.type.enum';
 export * from './config.properties';
 export * from './http.content-type.enum';
 export * from './loto.header.enum';
