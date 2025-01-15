@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.1.5
+
+### Patch Changes
+
+- Update cache key
+
 ## 0.1.4
 
 ### Patch Changes
