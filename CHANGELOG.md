@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.1.4
+
+### Patch Changes
+
+- change function name scope
+
 ## 0.1.3
 
 ### Patch Changes
