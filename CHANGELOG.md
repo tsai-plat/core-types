@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.1.3
+
+### Patch Changes
+
+- Add wechat support
+
 ## 0.1.2
 
 ### Patch Changes
