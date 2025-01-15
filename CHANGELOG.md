@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.1.7
+
+### Patch Changes
+
+- add some front-end function
+
 ## 0.1.6
 
 ### Patch Changes
