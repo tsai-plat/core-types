@@ -3,6 +3,7 @@ export type WechatAuthorizeParam = {
   state?: string;
   slient?: boolean;
   phone?: string;
+  openid?: string;
 };
 
 /**
