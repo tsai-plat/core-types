@@ -1,4 +1,4 @@
-export type WechatAuthorizeReqParam = {
+export type WechatAuthorizeParam = {
   code: string;
   state?: string;
   slient?: boolean;
@@ -10,6 +10,7 @@ export type WechatAuthorizeReqParam = {
  * https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/Wechat_webpage_authorization.html#3
  */
 export type WechatAccessToken = {
+  created?: number;
   access_token: string;
   expires_in: number;
   refresh_token: string;

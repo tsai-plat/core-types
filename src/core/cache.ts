@@ -6,6 +6,8 @@ export type CacheKeyScopeType =
   | 'guesttk'
   | 'captcha'
   | 'sms'
+  | 'wxtk'
+  | 'vendortk'
   | string;
 
 export type CacheKeyEnumType = {
