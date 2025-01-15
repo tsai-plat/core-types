@@ -33,7 +33,7 @@ export const WECHAT_ERROR_MESSAGES: { [k: number]: string } = {
  * @param errmsg
  * @returns error message
  */
-export function getErrorMessage(code: number, errmsg?: string): string {
+export function wechatErrorMessage(code: number, errmsg?: string): string {
   const message = WECHAT_ERROR_MESSAGES[code];
   return message ?? errmsg;
 }
