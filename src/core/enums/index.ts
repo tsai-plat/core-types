@@ -9,3 +9,4 @@ export * from './platform.enum';
 export * from './rest.httpstatus.enum';
 export * from './sortno.move.enum';
 export * from './status.enum';
+export * from './wechat.errcode.enum';

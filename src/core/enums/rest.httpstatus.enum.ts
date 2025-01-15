@@ -1,3 +1,10 @@
+/**
+ * @description
+ * UNAUTHORIZED_NEED_MORE_INFO use for wechat get more
+ *  user infomation by user authorized.
+ * VENDOR_AUTHORIZATION_FAIL : get info by authorized code
+ *  fail
+ */
 export enum APIHttpStatus {
   SUCCESS = 0,
   CONTINUE = 100,
@@ -42,6 +49,8 @@ export enum APIHttpStatus {
   FAILED_DEPENDENCY = 424,
   PRECONDITION_REQUIRED = 428,
   TOO_MANY_REQUESTS = 429,
+  VENDOR_AUTHORIZATION_FAIL = 464,
+  UNAUTHORIZED_NEED_MORE_INFO = 489,
   INTERNAL_SERVER_ERROR = 500,
   NOT_IMPLEMENTED = 501,
   BAD_GATEWAY = 502,
