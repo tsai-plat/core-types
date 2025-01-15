@@ -24,7 +24,7 @@ export const WECHAT_ERROR_MESSAGES: { [k: number]: string } = {
   10012: 'appid不能为空',
   10013: 'state不能为空',
   10015: '公众号未授权第三方平台，请检查授权状态',
-  10016: '不支持微信开放平台的Appid，请使用公众号Appid',
+  10016: '不支持微信开放平台的Appid,请使用公众号Appid',
 };
 
 /**
