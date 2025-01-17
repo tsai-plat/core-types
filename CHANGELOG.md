@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.1.9
+
+### Patch Changes
+
+- fix uuid
+
 ## 0.1.8
 
 ### Patch Changes
