@@ -5,7 +5,10 @@
  * @returns
  */
 export function getQueryParams<
-  R extends Record<string, string | number | Array<string | number>>,
+  R extends
+    | Record<string, string | number | Array<string | number>>
+    | string
+    | number,
 >(url: string = '', query?: string): R | undefined {
   if (!url?.length || url.indexOf('?') < 0) return;
   const queryStr = url.slice(url.indexOf('?') + 1);
