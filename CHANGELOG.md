@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.1.8
+
+### Patch Changes
+
+- AI agent types
+
 ## 0.1.7
 
 ### Patch Changes
