@@ -19,7 +19,7 @@ export type AIMessage = {
 export type AIOptions = {
   chatid: string;
   chatname?: string;
-  uuid?: string;
+  uuid?: number;
   msgid?: string;
   provider?: string;
   [k: string]: any;
