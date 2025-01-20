@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.1.11
+
+### Patch Changes
+
+- OBS types
+
 ## 0.1.10
 
 ### Patch Changes
