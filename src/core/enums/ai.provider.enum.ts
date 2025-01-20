@@ -1,3 +1,13 @@
+export type AiProvider =
+  | 'dify'
+  | 'comfyui'
+  | 'qianfan'
+  | 'qwen'
+  | 'spark'
+  | 'openai'
+  | 'kimi'
+  | string;
+
 export enum AiProviderEnum {
   DIFY_PLATFORM = 'dify',
   COMFY_UI_PLATFORM = 'comfyui',
@@ -5,5 +15,5 @@ export enum AiProviderEnum {
   ALI_TONGYI = 'qwen',
   XUNFEI_SPARK = 'spark',
   OPENAI = 'openai',
-  KIMI = 'kimi'
+  KIMI = 'kimi',
 }
