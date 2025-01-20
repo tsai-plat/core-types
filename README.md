@@ -1,6 +1,6 @@
 <h1 align="center">Tsailab/core-types</h1>
 <p align="center" >
-  <a href="https://github.com/lotolab" target="blank">
+  <a href="https://github.com/tsai-plat" target="blank">
     <img src="https://ucarecdn.com/eac2c945-177d-4fc9-8bc1-fa2be48ad3a2/lotolab_golden.svg" width="100" alt="Tsai Logo" />
   </a>
 </p>
