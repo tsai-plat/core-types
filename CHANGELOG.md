@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.1.10
+
+### Patch Changes
+
+- Add ai provide & knowledge
+
 ## 0.1.9
 
 ### Patch Changes
