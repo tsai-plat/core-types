@@ -1,19 +1,23 @@
 export type AttchmentFiletype =
+  | 'avatar'
   | 'document'
   | 'image'
   | 'audio'
   | 'video'
   | 'weblink'
   | 'custom'
+  | 'file'
   | string;
 
 export enum AttchmentFiletypeEnum {
-  DOC = 'document',
-  IMG = 'image',
   AUDIO = 'audio',
+  AVATAR = 'avatar',
+  CUSTOM = 'custom',
+  DOC = 'document',
+  FILE = 'file',
+  IMG = 'image',
   VIDEO = 'video',
   WEBLINK = 'weblink',
-  CUSTOM = 'custom',
 }
 
 /**
@@ -31,3 +35,9 @@ export enum AttchmentFileStateEnum {
 }
 
 export type OssProvider = 'ali' | 'tecent' | 'qiniu' | string;
+
+export type UploadFormType = {
+  filetype?: AttchmentFiletype;
+  extra?: Record<string, any>;
+  [k: string]: any;
+};
