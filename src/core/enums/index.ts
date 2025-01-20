@@ -1,4 +1,7 @@
 export * from './account.type.enum';
+export * from './ai.provider.enum';
+export * from './attachment.filetype.enum';
+
 export * from './client.type.enum';
 export * from './config.properties';
 export * from './http.content-type.enum';
