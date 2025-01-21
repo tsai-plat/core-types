@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.1.13
+
+### Patch Changes
+
+- Fix : write file type wrong
+
 ## 0.1.12
 
 ### Patch Changes
