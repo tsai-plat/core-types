@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.2.0
+
+### Minor Changes
+
+- add loto app types
+
 ## 0.1.13
 
 ### Patch Changes
