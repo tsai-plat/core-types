@@ -1,7 +1,7 @@
 {
   "name": "@tsailab/core-types",
   "version": "0.2.0",
-  "description": "",
+  "description": "tsai-plat types",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "scripts": {
@@ -15,10 +15,11 @@
     "format": "prettier **/**/*.ts --ignore-path ./.prettierignore --write",
     "beta": "pnpm build && pnpm release:beta",
     "release:beta": "changeset publish --tag beta",
-    "release": "pnpm build && pnpm release:only && pnpm push:changelog",
+    "prerelease": "pnpm format && pnpm build && pnpm vp",
     "release:only": "changeset publish --registry=https://registry.npmjs.com/",
     "vp": "npx changeset version",
     "push:changelog": "node build/scripts/push-changelog.mjs",
+    "release": "changeset publish --registry=https://registry.npmjs.com/",
     "prepare": "husky"
   },
   "files": [

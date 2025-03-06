@@ -1,4 +1,4 @@
-import { IUserSession } from "./session.token";
+import { IUserSession } from './session.token';
 
 export type LotoHeaderKeyType = 'x-loto-key' | 'x-loto-reqid';
 export type LotoCookiesType = 'captcha-code' | 'sms-code' | string;
@@ -9,6 +9,9 @@ export type LotoAppListener = {
   [k: string]: any;
 };
 
+/**
+ * clit :client type
+ */
 export type LotoHeadersType = {
   uid?: number | undefined;
   uno?: string;
@@ -18,6 +21,7 @@ export type LotoHeadersType = {
   cliid: string;
   clit?: string;
   ip: string;
-  session?:IUserSession
+  session?: IUserSession;
+  originalUrl?: string;
   [k: string]: any;
-}
+};
