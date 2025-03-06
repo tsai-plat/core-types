@@ -1,4 +1,5 @@
 export * from './account.type.enum';
+export * from './ai.model.class.enum';
 export * from './ai.provider.enum';
 export * from './attachment';
 

@@ -16,4 +16,6 @@ export enum AiProviderEnum {
   XUNFEI_SPARK = 'spark',
   OPENAI = 'openai',
   KIMI = 'kimi',
+  DEEPSEEK = 'deepseekai',
+  CUSTOMIZE_OLLAMA = 'customizeollama',
 }
