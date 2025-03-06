@@ -1,4 +1,10 @@
-export type UploadBizType = 'avatar' | 'common' | 'audio' | 'media' | 'doc' | string;
+export type UploadBizType =
+  | 'avatar'
+  | 'common'
+  | 'audio'
+  | 'media'
+  | 'doc'
+  | string;
 export type UploadFormData = {
   type: UploadBizType;
   uuid?: number;

@@ -1,5 +1,11 @@
 # @tsailab/core-types
 
+## 0.2.1
+
+### Patch Changes
+
+- update header props
+
 ## 0.2.0
 
 ### Minor Changes
