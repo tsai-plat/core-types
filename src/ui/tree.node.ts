@@ -12,6 +12,20 @@ export type TreeNodeOptionType = {
   [k: string]: any;
 };
 
+export type CommTreeNode = {
+  id: number;
+  key: string | number;
+  label: string;
+  pid: number;
+  icon?: string;
+  children?: Array<CommTreeNode>;
+  disabled?: boolean;
+  isLeaf?: boolean;
+  level?: number;
+  extra?: Record<string, any>;
+  [k: string]: any;
+};
+
 export type RegionTreeNode = {
   id: number;
   pid: number;
