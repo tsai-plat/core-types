@@ -22,6 +22,7 @@ export type CommTreeNode = {
   disabled?: boolean;
   isLeaf?: boolean;
   level?: number;
+  sortno?: number;
   extra?: Record<string, any>;
   [k: string]: any;
 };
